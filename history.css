@@ -14,8 +14,6 @@ body{
 }
 
 .back img{
-    width: 60px;
-    height: 60px;
     padding-left: 40px;
     display: inline-flex;
 }
@@ -59,6 +57,11 @@ body{
     min-width: 500px;
 }
 
+.item:hover{
+    background-color: #0D99FF;
+    color: white;
+}
+
 .thumbnail{
     border-radius: 12px;
     background: #D9D9D9;
@@ -76,13 +79,14 @@ body{
     display: inline-block;
     position: absolute;
     /* border: solid; */
+    padding-left: 20px;
 
     width: 36vw;
     min-width: 365px;
 }
 
 .file_name{
-    color: #000;
+    /* color: #000; */
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 600;
@@ -102,7 +106,7 @@ ul.file_info{
 ul.file_info li p{
     display: inline-flex;
     margin-top: 0;
-    color: #000;
+    /* color: #000; */
     font-family: 'SF Pro Display';
     font-weight: 400;
 
@@ -115,7 +119,7 @@ ul.file_info li p{
     bottom: 0;
     right: 0;
 
-    color: #000;
+    /* color: #000; */
     font-family: SF Pro Display;
     font-style: normal;
     font-weight: 700;
@@ -123,4 +127,3 @@ ul.file_info li p{
 
     font-size: 0.9em;
 }
-
